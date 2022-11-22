@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "RedRose";
+    src: url("../public/fonts/RedRose-VariableFont_wght.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0.05px;
+}
+
+.Faculty-section {
+    background: linear-gradient(148.04deg, #010912 19.21%, #02172e 110.18%);
+}
