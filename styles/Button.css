@@ -16,8 +16,15 @@
                 0% calc(100% - var(--edge-size)), 
                 0 var(--edge-size)
         );
+        transition: all 0.7s;
+
 
 }
 .button-parent{
         filter: drop-shadow(0px 0px 10px #0466CF);
+}
+
+.button:active{
+        transition: all 0.7s;
+        transform: scale(0.8);
 }
