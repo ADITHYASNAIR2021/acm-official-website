@@ -1,0 +1,30 @@
+.button{
+        /*to change edge size, change the variable here*/
+        --edge-size:1.2em;
+
+        background: linear-gradient(180deg, #0466CF 0%, #2986EA 100%);
+        padding:1%;
+        height: 57px;
+        width:209.5px;
+        clip-path: polygon(
+                0% 0%, 
+                calc(100% - var(--edge-size)) 0%, 
+                100% var(--edge-size), 
+                100% calc(100% - var(--edge-size)), 
+                100% 100%, 
+                var(--edge-size) 100%, 
+                0% calc(100% - var(--edge-size)), 
+                0 var(--edge-size)
+        );
+        transition: all 0.7s;
+
+
+}
+.button-parent{
+        filter: drop-shadow(0px 0px 10px #0466CF);
+}
+
+.button:active{
+        transition: all 0.7s;
+        transform: scale(0.8);
+}

@@ -1,5 +1,6 @@
-import React from 'react'
-import style from '../styles/style1.module.css'
+import React from "react";
+import FacultyManagement from "./../components/FacultyManagement";
+import style from '../styles/style1.module.css'import AboutUs from "../components/About-Us/AboutUs";
 function HomePage() {
   return (
     <div className={`${style.home_wallpare} h-[100vh] w-[100%] bg-slate-400 flex flex-wrap items-center flex-col justify-center`} >
@@ -26,4 +27,4 @@ function HomePage() {
   )
 }
 
-export default HomePage
+export default HomePage;
