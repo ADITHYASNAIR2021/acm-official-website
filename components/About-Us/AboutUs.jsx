@@ -6,7 +6,7 @@ const AboutUs = () => {
     return ( 
         <div className="
                         w-[100%]
-                        h-[70vh]
+                        h-[100vh]
                         bg-[#020B14]
                         grid
                         grid-cols-2

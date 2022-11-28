@@ -1,16 +1,17 @@
 import React from "react";
 import FacultyManagement from "./../components/FacultyManagement";
 import AboutUs from "../components/About-Us/AboutUs";
+import Landing from "../components/Landing";
 function HomePage() {
-    return (
-        <div>
-            <h1 className="text-2xl font-bold p-[0.1]">HomePage</h1>
+  return (
+    <div>
+            <Landing/>
+            <AboutUs />
             <div className="Faculty-section min-w-screen min-h-screen font-RedRose font-bold leading-8">
-                <AboutUs />
                 <FacultyManagement />
             </div>
         </div>
-    );
+  )
 }
 
 export default HomePage;
