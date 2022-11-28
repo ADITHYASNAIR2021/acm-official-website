@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
+
+.home_wallpare {
+    background: #000;
+}
+
+.acm_text {
+
+    text-shadow: 1px 2px 4px #057BFB;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 95px;
+
+
+    text-align: center;
+
+    background: linear-gradient(180deg, #057BFB 0%, #4A7099 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.student_text {
+    font-family: 'Impact';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 95px;
+    line-height: 61px;
+    /* or 64% */
+    text-transform: uppercase;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
+.heading_sub_text {
+    margin: 50px;
+    font-family: 'Impact';
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    /* or 119% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.heading_button {
+
+    box-sizing: border-box;
+    width: 238px;
+    height: 65px;
+
+
+    border: 2px solid rgba(255, 255, 255, 0.66);
+    border-radius: 39.5px;
+
+    font-family: 'Red Rose';
+    font-style: normal;
+    font-size: 21px;
+    line-height: 25px;
+    /* or 119% */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+    transition: all 0.2s;
+}
+
+.heading_button:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+.heading_button:active {
+    background-color: #fff;
+    color: #000;
+
+    transform: translateY(5px);
+}
