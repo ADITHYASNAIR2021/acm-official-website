@@ -1,8 +1,4 @@
 import React from 'react'
-import { FcIdea } from "react-icons/fc";
-import { FaBrain,FaGripLinesVertical } from "react-icons/fa";
-import { BsPeopleFill } from "react-icons/bs";
-import { TbRectangleVertical } from "react-icons/tb";
 import Button from './Button.jsx'
 import ObjRec from "/public/objRec.svg"
 import Intrc from "/public/objinter.svg"
