@@ -4,9 +4,11 @@ import FacultyManagement from "./../components/FacultyManagement";
 import AboutUs from "../components/About-Us/AboutUs";
 import StudManage from "../components/StudManage";
 import Landing from "../components/Landing";
+import { Navbar } from "../components/Navbar";
 function HomePage() {
   return (
     <div>
+            <Navbar/>
             <Landing/>
             <AboutUs />
             <OurObj />

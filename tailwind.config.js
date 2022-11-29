@@ -8,7 +8,9 @@ module.exports = {
         extend: {
             fontFamily: {
                 RedRose: "RedRose",
+                Poppins: "Poppins",
             },
+            
         },
     },
     plugins: [],
