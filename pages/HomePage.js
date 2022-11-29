@@ -5,6 +5,7 @@ import AboutUs from "../components/About-Us/AboutUs";
 import StudManage from "../components/StudManage";
 import Landing from "../components/Landing";
 import { Navbar } from "../components/Navbar";
+import Footer from "../components/Footer";
 function HomePage() {
   return (
     <div>
@@ -16,6 +17,7 @@ function HomePage() {
                 <FacultyManagement />
                 <StudManage />
             </div>
+            <Footer/>
         </div>
   )
 }
