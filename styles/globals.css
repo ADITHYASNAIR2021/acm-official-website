@@ -34,3 +34,7 @@ font-weight: 700;
 font-size: 44px;
 line-height: 61px;
 }
+
+.footerbg{
+    background: linear-gradient(148.04deg, #010912 19.21%, #02172E 110.18%);
+}
