@@ -18,7 +18,7 @@ export const Navbar = () => {
       <nav className='sticky top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3'>
 
         <div className='inline-flex items-center p-2 mr-4 h-[60px] w-[200px]'>
-            <Image src={require("./../public/images/website_logo.png")}/>
+            <Image src={require("./../public/images/website_logo.png")} alt="acm logo"/>
         </div>
 
         <button

@@ -8,9 +8,12 @@ const AboutUs = () => {
                         w-[100%]
                         h-[100vh]
                         bg-[#020B14]
-                        grid
-                        grid-cols-2
-                        
+                        cs-1240:grid
+                        cs-1240: grid-cols-2
+                        flex 
+                        flex-col
+                        justify-center
+                        items-center
                         "
         >
             <div className="
@@ -38,7 +41,15 @@ const AboutUs = () => {
                 <br></br>
                 <Button message={"JOIN US"}/>    
             </div>
-            <div className="Image relative self-center flex flex-col justify-center">
+            <div className="
+                Image 
+                relative 
+                self-center 
+                cs-708:flex 
+                cs-708:flex-col 
+                cs-708:justify-center 
+                hidden"
+            >
                 <AmritaUni className="relative left-[10%]" />
                 <Stats className="absolute bottom-[-10%] left-[10%]" />
             </div>
