@@ -10,6 +10,10 @@
     font-family: "Poppins";
     src: url("../public/fonts/Poppins-Regular.ttf");
 }
+@font-face {
+    font-family: "Impact";
+    src: url("../public/fonts/impact.ttf");
+}
 
 * {
     box-sizing: border-box;
@@ -20,21 +24,21 @@
     background: linear-gradient(148.04deg, #010912 19.21%, #02172e 110.18%);
 }
 
-.card-gradient{
-    background: linear-gradient(179.93deg, #112235 -19.29%, #02101E 99.94%);
+.card-gradient {
+    background: linear-gradient(179.93deg, #112235 -19.29%, #02101e 99.94%);
 }
 
-.ourobjbg{
-    background: linear-gradient(148.04deg, #010912 19.21%, #02172E 110.18%);
+.ourobjbg {
+    background: linear-gradient(148.04deg, #010912 19.21%, #02172e 110.18%);
 }
-.ourobjtxt{
-    font-family: 'RedRose';
-font-style: normal;
-font-weight: 700;
-font-size: 44px;
-line-height: 61px;
+.ourobjtxt {
+    font-family: "RedRose";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 61px;
 }
 
-.footerbg{
-    background: linear-gradient(148.04deg, #010912 19.21%, #02172E 110.18%);
+.footerbg {
+    background: linear-gradient(148.04deg, #010912 19.21%, #02172e 110.18%);
 }
