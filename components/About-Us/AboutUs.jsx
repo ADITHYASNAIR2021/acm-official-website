@@ -26,9 +26,9 @@ const AboutUs = () => {
                     ml-10
                     "
             >
-                <h1 className="text-white text-4xl font-medium opacity-[77%]">ABOUT US</h1>
+                <h1 className="font-RedRose text-white text-4xl font-medium opacity-[77%]">ABOUT US</h1>
                 <br></br>
-                <p className="w-[70%] font-normal leading-[26px] opacity-[77%]">
+                <p className="w-[70%] font-RedRose font-normal leading-[26px] opacity-[77%]">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
