@@ -28,7 +28,7 @@ export default function FacultyManagement() {
                         mg="mr-0 sm:mt-9 md:mt-10 lg:mt-0"
                     />
                 </div>
-                <div className="faculty-row-2 flex sm:mt-8 md:mt-8 lg:mt-16 justify-center items-center">
+                <div className="faculty-row-2 flex sm:mt-8 md:mt-8 lg:mt-16 justify-center items-center flex-wrap">
                     <FacultyCards
                         image={require("./../public/images/faculty-4.png")}
                         name="Mr. Sarath S"
