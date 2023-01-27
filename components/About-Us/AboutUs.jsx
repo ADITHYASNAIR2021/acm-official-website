@@ -29,14 +29,13 @@ const AboutUs = () => {
                 <h1 className="font-RedRose text-white text-4xl font-medium opacity-[77%]">ABOUT US</h1>
                 <br></br>
                 <p className="w-[70%] font-RedRose font-normal leading-[26px] opacity-[77%]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
-                    deserunt mollit anim id est laborum.
-
+                    We are a group of computer science enthusiasts from across the country, interested in 
+                    various sub-disciplines. We believe in self-education and group-based learning, using 
+                    subject-oriented tasks to advance through sharing and receiving knowledge with peers. Our student 
+                    chapter consists of Student Interest Groups (SIGs) managed by students, focused on topics such as 
+                    Artificial Intelligence, Cybersecurity, Game Development, Competitive Programming, Blockchain Development, and more. 
+                    Your place in our group is based on your expertise and knowledge in a certain field. 
+                    If you want to contribute to an SIG, please contact us.
                 </p>
                 <br></br>
                 <Button message={"JOIN US"}/>    
