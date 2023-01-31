@@ -6,10 +6,10 @@ import BigIdea from "/public/bigId.svg";
 import Creative from "/public/crtve.svg";
 function OurObj() {
   return (
-    <div className="xl:h-[100vh] ourobjbg">
+    <div className=" ourobjbg pb-10">
       OurObj
       <div className="grid place-items-center  text-white">
-        <div className="flex flex-col gap-y-24 xl:w-[45%] pb-10">
+        <div className="flex flex-col gap-y-24 xl:w-[60%]">
           <div className="flex justify-center">
             <div className=" grid place-items-center text-center ">
               <div className="grid grid-rows-2 ">
@@ -81,7 +81,7 @@ function OurObj() {
               </div>
             </div>
           </div>
-          <div className="grid place-items-center">
+          <div className="flex items-center justify-center">
             <Button message={"Learn More"} />
           </div>
         </div>
