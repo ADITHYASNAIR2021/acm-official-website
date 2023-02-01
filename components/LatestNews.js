@@ -20,7 +20,7 @@ const LatestNews = () => {
             height="1200"
           />
           <p>Dec 18 from 11.00AM to 12.00PM (IST)</p>
-          <span class="bookPrice">ICPC CODING</span>
+          <span className="bookPrice">ICPC CODING</span>
           <h2>ICPC CODING</h2>
         </CarouselItem>
         <CarouselItem>
@@ -31,7 +31,7 @@ const LatestNews = () => {
             height="1200"
           />
           <p>Dec 18 from 11.00AM to 12.00PM (IST)</p>
-          <span class="bookPrice">ICPC CODING</span>
+          <span className="bookPrice">ICPC CODING</span>
           <h2>ICPC CODING</h2>
         </CarouselItem>
         <CarouselItem>
@@ -42,7 +42,7 @@ const LatestNews = () => {
             height="1200"
           />
           <p>Dec 18 from 11.00AM to 12.00PM (IST)</p>
-          <span class="bookPrice">ICPC CODING</span>
+          <span className="bookPrice">ICPC CODING</span>
           <h2>ICPC CODING</h2>
         </CarouselItem>
       </Carousel>
