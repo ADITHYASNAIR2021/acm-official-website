@@ -13,7 +13,7 @@ const LatestNews = () => {
       <Carousel>
         <CarouselItem>
           <Image
-            src={"/../public/images/latestNews/1.jpeg"}
+            src="/../public/images/latestNews/1.jpeg"
             alt="news 1"
             width="900"
             height="1200"
@@ -24,7 +24,7 @@ const LatestNews = () => {
         </CarouselItem>
         <CarouselItem>
           <Image
-            src={"/../public/images/latestNews/1.jpeg"}
+            src="/../public/images/latestNews/1.jpeg"
             alt="news 1"
             width="900"
             height="1200"
@@ -35,7 +35,7 @@ const LatestNews = () => {
         </CarouselItem>
         <CarouselItem>
           <Image
-            src={"/../public/images/latestNews/1.jpeg"}
+            src="/../public/images/latestNews/1.jpeg"
             alt="news 1"
             width="900"
             height="1200"
