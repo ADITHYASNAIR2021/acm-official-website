@@ -3,6 +3,7 @@ import Image from "next/image";
 import Heading from "./Heading";
 import Carousel, { CarouselItem } from "./Carousel";
 import Button from "./Button";
+import img from "../public/images/latestNews/1.jpeg"
 
 const LatestNews = () => {
   return (
@@ -13,7 +14,7 @@ const LatestNews = () => {
       <Carousel>
         <CarouselItem>
           <Image
-            src="/../public/images/latestNews/1.jpeg"
+            src={img}
             alt="news 1"
             width="900"
             height="1200"
@@ -24,7 +25,7 @@ const LatestNews = () => {
         </CarouselItem>
         <CarouselItem>
           <Image
-            src="/../public/images/latestNews/1.jpeg"
+            src={img}
             alt="news 1"
             width="900"
             height="1200"
@@ -35,7 +36,7 @@ const LatestNews = () => {
         </CarouselItem>
         <CarouselItem>
           <Image
-            src="/../public/images/latestNews/1.jpeg"
+            src={img}
             alt="news 1"
             width="900"
             height="1200"
