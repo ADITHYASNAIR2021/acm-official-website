@@ -1,8 +1,9 @@
 import Link from "next/link";
 import { useState } from "react";
+import logo from "../public/images/website_logo.png"
 import Button from "./Button";
 import Image from "next/image";
-import {ReactComponent as acmLogo} from './../public/images/website-logo.svg';
+
 export const Navbar = () => {
     const [active, setActive] = useState(false);
 
@@ -14,7 +15,7 @@ export const Navbar = () => {
         <>
             <nav className="sticky top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3">
                 <div className="inline-flex items-center p-2 mr-4 h-[60px] w-[200px]">
-                    <Image src="/./website-logo.svg" alt="acm logo" width={240} height={88} />
+                    <Image src={logo} alt="acm logo" width={240} height={88} />
                 </div>
 
                 <button
