@@ -41,6 +41,7 @@
 }
 
 
+
 .heading_sub_text {
     margin: 50px;
     font-family: 'Impact';
@@ -55,6 +56,23 @@
     letter-spacing: 0.03em;
 
     color: rgba(255, 255, 255, 0.7);
+}
+
+@media only screen and (max-width: 600px) {
+    .student_text {
+        font-family: 'Impact';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 65px;
+        line-height: 61px;
+        /* or 64% */
+        text-transform: uppercase;
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
 }
 
 .heading_button {
