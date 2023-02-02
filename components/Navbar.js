@@ -12,9 +12,9 @@ export const Navbar = () => {
     };
 
     return (
-        <>
-            <nav className="sticky top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3">
-                <div className="inline-flex items-center p-2 mr-4 h-[60px] w-[200px]">
+        <div className="bg-[#020B14]">
+            <nav className="sticky top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-4 mx-20 ">
+                <div className="inline-flex items-center p-2 ml-20 mr-4 h-[60px] w-[200px]">
                     <Image src={logo} alt="acm logo" width={240} height={88} />
                 </div>
 
@@ -39,9 +39,8 @@ export const Navbar = () => {
                 </button>
 
                 <div
-                    className={`${
-                        active ? "" : "hidden"
-                    }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
+                    className={`${active ? "" : "hidden"
+                        }   w-full lg:inline-flex lg:flex-grow lg:w-auto`}
                 >
                     <div className="lg:inline-flex lg:flex-row lg:ml-auto lg:w-auto w-full lg:items-center text-white font-RedRose items-start justify-between flex flex-col lg:h-auto lg:space-x-10 ">
                         <Link
@@ -78,6 +77,6 @@ export const Navbar = () => {
                     </div>
                 </div>
             </nav>
-        </>
+        </div>
     );
 };

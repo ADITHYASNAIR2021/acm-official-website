@@ -2,8 +2,8 @@ import Button from "../Button";
 import AmritaUni from '/public/Amrita-Uni.svg'
 import Stats from '/public/Group 30.svg'
 const AboutUs = () => {
-    
-    return ( 
+
+    return (
         <div className="
                         w-[100%]
                         h-[100vh]
@@ -23,22 +23,16 @@ const AboutUs = () => {
                     justify-center
                     items-start
                     text-white
-                    ml-10
+                    ml-[150px]
                     "
             >
                 <h1 className="font-RedRose text-white text-4xl font-medium opacity-[77%]">ABOUT US</h1>
                 <br></br>
                 <p className="w-[70%] font-RedRose font-normal leading-[26px] opacity-[77%]">
-                    We are a group of computer science enthusiasts from across the country, interested in 
-                    various sub-disciplines. We believe in self-education and group-based learning, using 
-                    subject-oriented tasks to advance through sharing and receiving knowledge with peers. Our student 
-                    chapter consists of Student Interest Groups (SIGs) managed by students, focused on topics such as 
-                    Artificial Intelligence, Cybersecurity, Game Development, Competitive Programming, Blockchain Development, and more. 
-                    Your place in our group is based on your expertise and knowledge in a certain field. 
-                    If you want to contribute to an SIG, please contact us.
+                    We are a group of computer science enthusiasts promoting self-education and group-based learning through Student Interest Groups (SIGs) focused on topics such as AI, Cybersecurity, Game Dev, Competitive Programming, Blockchain Dev and more. Join us based on your expertise in a certain field and contribute to an SIG by contacting us.
                 </p>
                 <br></br>
-                <Button message={"JOIN US"}/>    
+                <Button message={"JOIN US"} />
             </div>
             <div className="
                 Image 
@@ -53,7 +47,7 @@ const AboutUs = () => {
                 <Stats className="absolute bottom-[-10%] left-[10%]" />
             </div>
         </div>
-     );
+    );
 }
- 
+
 export default AboutUs;

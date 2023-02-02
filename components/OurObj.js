@@ -15,9 +15,10 @@ function OurObj() {
               <div className="grid grid-rows-2 ">
                 <p className="ourobjtxt "> OUR OBJECTIVE</p>
                 <p className="text-xl break-words pl-12 pr-12 font-light">
-                  The objective of the chapter to promote computer science as a
-                  field of education and foster a sense of innovation and
-                  creativity among computer enthusiasts.
+                  Some ideas sound insane when on paper, but may be infinitely practical when
+                  supplemented with a good team and proper backing. We provide a platform to
+                  bring even the most difficult projects and ideas to fruition. We help students put
+                  their ideas into motion and fuel groundbreaking projects.
                 </p>
               </div>
             </div>
@@ -35,10 +36,8 @@ function OurObj() {
                       Interactive
                     </div>
                   </div>
-                  <p className="text-white text-base text-center font-light">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                  <p className="text-white text-base text-center font-light p-4">
+                    Learn through group activities and short tasks fostering communication and cooperation among enthusiasts.
                   </p>
                 </div>
               </div>
@@ -54,10 +53,8 @@ function OurObj() {
                       Creative
                     </div>
                   </div>
-                  <p className="text-white text-base text-center font-light">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                  <p className="text-white text-base text-center font-light p-4">
+                    Learn with hundreds of peers in a dynamic environment. We foster creative thinking & unique approaches to problem-solving.
                   </p>
                 </div>
               </div>
@@ -72,10 +69,8 @@ function OurObj() {
                       Big Ideas
                     </div>
                   </div>
-                  <p className="text-white text-base text-center font-light">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                    exercitationem praesentium nihil.
+                  <p className="text-white text-base text-center font-light p-4 ">
+                    We provide a platform to turn even the most challenging ideas into reality with the help of a strong team and proper support.
                   </p>
                 </div>
               </div>
@@ -85,7 +80,7 @@ function OurObj() {
             <Button message={"Learn More"} />
           </div>
         </div>
-        
+
       </div>
     </div>
   );
