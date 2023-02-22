@@ -64,13 +64,13 @@ function returnSVG(id) {
 function JoinTeam() {
     
   return (
-    <div className=" ourobjbg pb-10 min-h-screen">
+    <div className=" joinuspage pb-10 min-h-screen">
       <Navbar />
       <div className="grid place-items-center  text-white">
         <div className="flex flex-col gap-y-24 xl:w-[90%] mt-5 mb-5">
           <div className="flex justify-center">
             <div className=" grid place-items-center text-center ">
-              <div className="grid sm:grid-cols-3 sm:grid-rows-1  grid-rows-3">
+              <div className="grid sm:grid-cols-3 sm:grid-rows-1  grid-rows-3 place-items-center">
                 <div className="grid-rows-2 grid place-items-center sm:place-items-start">
                 <p className="jointext "> JOIN</p>
                 <p className="ourteam "> OUR TEAM</p>
@@ -87,9 +87,9 @@ function JoinTeam() {
             </div>
           </div>
           <div className="flex justify-center">
-            <div className=" grid grid-cols-1 sm:grid-cols-3 gap-24 w-3/4 sm:w-full">
+            <div className=" grid grid-cols-1 sm:grid-cols-3 gap-24 w-3/4 sm:w-4/5">
             {detArr.map((pgdet) => (
-                    <div className="w-full rounded border-2 border-blue-700 card-gradient">
+                    <div className="w-full rounded border-2 border-blue-700 card-gradient" key={pgdet.id}>
                     <div className="px-6 py-4">
                       <div className="flex justify-center">
                       {returnSVG(pgdet.id)}

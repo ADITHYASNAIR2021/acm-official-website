@@ -197,3 +197,7 @@ font-size: 60px;
 line-height: 100px;
 color: #FFFFFF;
 }
+.joinuspage{
+    background: linear-gradient(148.04deg, #010912 19.21%, #02172E 110.18%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}

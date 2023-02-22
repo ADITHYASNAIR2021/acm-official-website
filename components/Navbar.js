@@ -56,7 +56,7 @@ export const Navbar = () => {
                             Events
                         </Link>
                         <Link
-                            href="/"
+                            href="/JoinTeam"
                             className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-rose-700"
                         >
                             Why join us?
