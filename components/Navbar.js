@@ -4,16 +4,16 @@ import logo from "../public/images/website_logo.png"
 import Button from "./Button";
 import Image from "next/image";
 
-export const Navbar = () => {
+export const Navbar = ({isTransparent}) => {
     const [active, setActive] = useState(false);
 
     const handleClick = () => {
         setActive(!active);
     };
-
+    var properties = (isTransparent ? "sticky top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3 bg-transparent": "sticky top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3")
     return (
         <div className="bg-[#020B14]">
-            <nav className="sticky top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-4 mx-20 ">
+            <nav className={properties}>
                 <div className="inline-flex items-center p-2 ml-20 mr-4 h-[60px] w-[200px]">
                     <Image src={logo} alt="acm logo" width={240} height={88} />
                 </div>
@@ -50,7 +50,7 @@ export const Navbar = () => {
                             Home
                         </Link>
                         <Link
-                            href="/"
+                            href="/eventPage"
                             className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-rose-700"
                         >
                             Events
