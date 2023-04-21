@@ -12,7 +12,7 @@ export default function StudentCard(props) {
             <Image src={image} alt="faculty" className="mt-[-100px]" />
             <p className="text-white text-xl mt-3">{name}</p>
             <p className="text-slate-400 text-lg">{position}</p>
-            <AnimatePresence>{hover ? <motion.div className="text-white mt-3 flex"><button className="active:scale-90 transition duration-150"><img className="h-8 w-8 mr-3" src='instagram.png'></img></button><button className="active:scale-90 transition duration-150"><img className="h-8 w-8 rounded-lg" src='linkedin.png'></img></button></motion.div> :<></>}</AnimatePresence>
+            <AnimatePresence>{hover ? <motion.div className="text-white mt-3 flex"><button className="active:scale-90 transition duration-150"><Image className="h-8 w-8 mr-3" src='/instagram.png' width={25} height={25} alt="Instgram"/></button><button className="active:scale-90 transition duration-150"><Image className="h-8 w-8 rounded-lg" src='/linkedin.png' width={25} height={25} alt="linkedIn"/></button></motion.div> :<></>}</AnimatePresence>
         </motion.div>
         </AnimatePresence>
     );
