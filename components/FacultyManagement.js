@@ -3,7 +3,7 @@ import FacultyCards from "./FacultyCards";
 export default function FacultyManagement() {
     return (
         <>
-            <div className="faculty-header flex justify-center items-center pt-9 pb-8">
+            <div className="faculty-header mt-[100px] flex justify-center items-center pt-9 pb-8">
                 <div className="faculty-header-dot h-6 w-3 mr-3 bg-gradient-to-t from-blue-700 to-blue-400 rounded-sm"></div>
                 <h1 className="text-5xl text-white">Faculty Management</h1>
             </div>
