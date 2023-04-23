@@ -33,7 +33,7 @@ function Footer() {
             <p className="opacity-[70%]">ACM Student Chapter, Amritapuri,</p>
             <p className="opacity-[70%]"> Kollam, Kerala - 690546</p>
             <p >Help; (0411) 425 277 / 425</p>
-            <p >Email: acm.amritapuri@gmail.com</p>
+            <p >Email: contact@aseam.acm.org</p>
           </div>
           <div>
             <h5 className="font-bold mb-2.5 text-xl">Quick Links</h5>
