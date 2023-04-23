@@ -15,8 +15,8 @@ function HomePage() {
             <AboutUs />
             <OurObj />
             <div className="Faculty-section min-w-screen min-h-screen font-RedRose font-bold leading-8">
-                <FacultyManagement />
                 <StudManage />
+                <FacultyManagement />
                 <LatestNews/>
             </div>
             <Footer />
