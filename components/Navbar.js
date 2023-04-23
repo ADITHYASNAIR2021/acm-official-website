@@ -14,7 +14,7 @@ export const Navbar = ({isTransparent}) => {
     return (
         <div className="bg-[#020B14]">
             <nav className={properties}>
-                <div className="inline-flex items-center p-2 ml-20 mr-4 h-[60px] w-[200px]">
+                <div className="inline-flex items-center p-2 h-[60px] w-[200px]">
                     <Image src={logo} alt="acm logo" width={240} height={88} />
                 </div>
 
