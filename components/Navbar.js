@@ -15,11 +15,11 @@ export const Navbar = ({isTransparent}) => {
         <div className="bg-[#020B14]">
             <nav className={properties}>
                 <div className="inline-flex items-center p-2 h-[60px] w-[200px]">
-                    <Image src={logo} alt="acm logo" width={240} height={88} />
+                    <Link href="/"><Image src={logo} alt="acm logo" width={240} height={88} /></Link>
                 </div>
 
                 <button
-                    className=" inline-flex p-3 rounded lg:hidden text-white ml-auto hover:text-rose-600 outline-none"
+                    className=" inline-flex p-3 rounded lg:hidden text-white ml-auto hover:text-[#217EE3] outline-none"
                     onClick={handleClick}
                 >
                     <svg
