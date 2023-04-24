@@ -1,21 +1,38 @@
-import React from 'react'
-import Head from 'next/head'
-import { Navbar } from '../components/Navbar'
-import Footer from '../components/Footer'
+import React from "react";
+import Head from "next/head";
+import ProjectsCard from "../components/projectsCard";
+import { Navbar } from "../components/Navbar";
+import Footer from "../components/Footer";
 
-function projects() {
+const projects = () => {
   return (
     <>
       <Head>
-        <title>Blog </title>
+        <title>Projects </title>
       </Head>
       <Navbar />
-      <div className="h-screen bg-[#010912]">
-        <h1 className="text-center text-6xl text-white py-[200px]">coming soon...</h1>
+      <div className="bg-[#010912] pt-5 pb-5">
+        <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2 md:gap-4 lg:gap-6 p-5">
+          <div className="text-center">
+            <h1 className="text-[70px] text-white font-bold">
+              We build, We create!
+            </h1>
+            <p className="text-[20px] text-white opacity-70">
+              explore the works done by our members.
+            </p>
+          </div>
+        </div>
+        <div className="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 md:gap-4 lg:gap-6 p-5 my-2">
+          <ProjectsCard title="Noteworthy technology acquisitions 2021" desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."/>
+          <ProjectsCard title="Noteworthy technology acquisitions 2021" desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."/>
+          <ProjectsCard title="Noteworthy technology acquisitions 2021" desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."/>
+          <ProjectsCard title="Noteworthy technology acquisitions 2021" desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."/>
+          <ProjectsCard title="Noteworthy technology acquisitions 2021" desc="Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order."/>
+        </div>
       </div>
       <Footer />
     </>
-  )
-}
+  );
+};
 
-export default projects
+export default projects;
