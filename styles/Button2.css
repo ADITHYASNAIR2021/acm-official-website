@@ -1,12 +1,12 @@
 .button2 {
   box-sizing: border-box;
 
-position: absolute;
-width: 176px;
-height: 62px;
-left: 597px;
-top: 199px;
+  position: absolute;
+  width: 176px;
+  height: 62px;
+  left: 597px;
+  top: 199px;
 
-border: 22px solid #2E73BE;
-border-radius: 39.5px;
+  border: 22px solid #2e73be;
+  border-radius: 18px;
 }
