@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import ProjectsCard from "../components/projectsCard";
+import ProjectsCard from "../components/ProjectsCard";
 import { Navbar } from "../components/Navbar";
 import Footer from "../components/Footer";
 
