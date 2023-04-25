@@ -11,7 +11,7 @@ const projects = () => {
         <title>Projects</title>
       </Head>
       <Navbar />
-      <div className="bg-[#010912] pt-5 pb-5">
+      <div className="first-div bg-[#010912] pt-5 pb-5">
         <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 gap-2 md:gap-4 lg:gap-6 p-5">
           <div className="text-center">
             <h1 className="text-[70px] text-white font-bold">

@@ -20,6 +20,10 @@
     padding: 0.05px;
 } */
 
+.first-div{
+    padding-top:65px
+}
+
 .Faculty-section {
     background: linear-gradient(148.04deg, #010912 19.21%, #02172e 110.18%);
 }
@@ -244,6 +248,20 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     filter: blur(50px);
     transform: rotate(14.37deg);
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #02101f;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 8px;
+    background-color: #1d4ed8;
+}
+
 @keyframes updown {
     0%, 100% {
         transform: translateY(100%);

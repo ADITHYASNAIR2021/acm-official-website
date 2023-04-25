@@ -66,7 +66,7 @@ function JoinTeam() {
   return (
     <div className=" joinuspage pb-10 min-h-screen">
       <Navbar />
-      <div className="grid place-items-center  text-white">
+      <div className="grid first-div place-items-center  text-white">
         <div className="flex flex-col gap-y-24 xl:w-[90%] mt-5 mb-5">
           <div className="flex justify-center">
             <div className=" grid place-items-center text-center ">

@@ -10,7 +10,7 @@ export const Navbar = ({isTransparent}) => {
     const handleClick = () => {
         setActive(!active);
     };
-    var properties = (isTransparent ? "sticky top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3 bg-transparent": "sticky top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3")
+    var properties = (isTransparent ? "fixed w-[100%] top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3 bg-transparent": "fixed w-[100%] top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3")
     return (
         <div className="bg-[#020B14]">
             <nav className={properties}>

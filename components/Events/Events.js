@@ -1,7 +1,7 @@
 import Button from "../Button";
 function Events(){
     return(
-            <div className="event mt-10 min-h-[500px] min-w-[80%] backdrop-blur-md backdrop-opacity-[0.49] grid md:grid-cols-2 md:grid-rows-1 grid-rows-2 justify-center items-center rounded-xl ml-10 mr-10">
+            <div className="event first-div mt-10 min-h-[500px] min-w-[80%] backdrop-blur-md backdrop-opacity-[0.49] grid md:grid-cols-2 md:grid-rows-1 grid-rows-2 justify-center items-center rounded-xl ml-10 mr-10">
                 <div className="event-wordings text-white ml-3 flex flex-col justify-center items-start">
                     <h1 className="event-title text-3xl">EVENT TITLE</h1>
                     <p className="event-details mt-3 max-w-[80%]">
