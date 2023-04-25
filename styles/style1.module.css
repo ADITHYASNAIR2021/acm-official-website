@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Rose&display=swap');
 
 .home_wallpare {
-    background: #000;
+    background: url('../public/background.png')
 }
 
 .acm_text {
