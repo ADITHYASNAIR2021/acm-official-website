@@ -10,7 +10,7 @@ const blog = () => {
         <title>Blog </title>
       </Head>
       <Navbar />
-      <div className="h-screen bg-[#010912]">
+      <div className="h-screen bg-[#010912] first-div">
         <h1 className="text-center text-6xl text-white py-[200px]">coming soon...</h1>
       </div>
       <Footer />
