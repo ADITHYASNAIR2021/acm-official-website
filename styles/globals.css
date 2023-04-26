@@ -159,15 +159,23 @@
     }
 }
 .button2 {
-    box-sizing: border-box;
+  box-sizing: border-box;
   width: 176px;
   height: 62px;
   left: 597px;
   top: 199px;
-  
   border: 2px solid #2E73BE;
-  border-radius: 39.5px;
+  border-radius: 18px;
+  font-family: "RedRose";
+  transition: background-image 0.15s;
   }
+.button2:hover{
+    background-image: linear-gradient(45deg, #057BFB 0%, #010912 100%);
+}
+.button2:active{
+    background-image: linear-gradient(45deg, #057BFB 0%, #010912 100%);
+    opacity: 0.8;
+} 
 
 .jointext{
 width: 148px;
@@ -189,7 +197,7 @@ background-clip: text;
 
 }
 .ourteam{
-    width: 271px;
+width: 271px;
 height: 87px;
 left: 201px;
 top: 195px;
