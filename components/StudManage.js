@@ -20,20 +20,20 @@ const StudManage = () => {
             github = "https://github.com/4k5h1t"
           />
           <StudentCard 
+            image={require("./../public/Students/gourinath.jpg")}
+            name="GOURINATH"
+            position="Vice Chairman"
+            instagram = "https://www.instagram.com/gnhd.11/"
+            linkedin = "https://www.linkedin.com/in/gourinath-a9a53085/"
+            github = "https://github.com/GNHD"
+          />
+          <StudentCard 
             image={require("./../public/Students/aby.jpg")}
             name="ABY STALIN"
-            position="Vice Chairman"
+            position="Creative Head"
             instagram = "https://www.instagram.com/alby.on/"
             linkedin = "https://www.linkedin.com/in/aby-stalin/"
             github = "https://github.com/Alby0n/"
-          />
-          <StudentCard 
-            image={require("./../public/Students/gourinath.jpg")}
-            name="GOURINATH"
-            position="Standing Vice Chairman"
-            instagram = "https://www.instagram.com/_.akhil.sk._/"
-            linkedin = "https://www.linkedin.com/in/imakhilskumar/"
-            github = "https://github.com/akhil-s-kumar"
           />
           <StudentCard 
             image={require("./../public/Students/srilakshmi.jpg")}
@@ -44,20 +44,20 @@ const StudManage = () => {
             github = "https://github.com/srilakshmi1912/"
           />
           <StudentCard 
-            image={require("./../public/Students/akhil.jpg")}
-            name="AKHIL S KUMAR"
-            position="Web Lead"
-            instagram = "https://www.instagram.com/_.akhil.sk._/"
-            linkedin = "https://www.linkedin.com/in/imakhilskumar/"
-            github = "https://github.com/akhil-s-kumar"
-          />
-          <StudentCard 
             image={require("./../public/Students/neeraja.jpg")}
             name="R NEERAJA ANAND"
             position="AI Lead"
             instagram = "https://www.instagram.com/neeraja.exe/"
             linkedin = "https://www.linkedin.com/in/rneerajaanand/"
             github = "https://github.com/TheNeerajaAnand/"
+          />
+          <StudentCard 
+            image={require("./../public/Students/akhil.jpg")}
+            name="AKHIL S KUMAR"
+            position="Web Lead"
+            instagram = "https://www.instagram.com/_.akhil.sk._/"
+            linkedin = "https://www.linkedin.com/in/imakhilskumar/"
+            github = "https://github.com/akhil-s-kumar"
           />
           <StudentCard 
             image={require("./../public/Students/vipin.jpg")}
