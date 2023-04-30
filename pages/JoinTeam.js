@@ -64,7 +64,7 @@ function returnSVG(id) {
 function JoinTeam() {
     
   return (
-    <div class="text-center sm:text-left">
+    <div className="text-center sm:text-left">
       <div className=" joinuspage pb-0 pt-20 min-h-screen overflow-x-hidden"> 
         <Navbar />
         <div className="grid place-items-center  text-white">
