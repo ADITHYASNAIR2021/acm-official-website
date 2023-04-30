@@ -37,12 +37,12 @@ function returnSVG(id) {
     },
     {
         id:"2",
-        title: "Networking Opportunities",
+        title: "Networking",
         desc:" We provide opportunities to network and build relationships with like-minded individuals who share a passion for technology , which can help students connect with employers or mentors in their field."
     },
     {
         id:"3",
-        title: "Leadership Experience",
+        title: "Leadership",
         desc:"As an ACM member, you'll develop valuable skills like team management, event organization, volunteerism, and budgeting."
     },
     {
@@ -52,12 +52,12 @@ function returnSVG(id) {
     },
     {
         id:"5",
-        title: "Internship Opportunities",
+        title: "Internships",
         desc:"Write your research paper under the guidance of a skilled mentor and boost your resume with excellent internship opportunities at ACM."
     },
     {
         id:"6",
-        title: "Collaborative Environment",
+        title: "Collaborative",
         desc:"ACM provides a collaborative environment where you can work with other like-minded individuals, share ideas, and learn from each other. This can be a great way to build your teamwork and leadership skills."
     }
 ]
