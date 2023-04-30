@@ -32,39 +32,39 @@ function returnSVG(id) {
   const detArr=[
     {
         id:"1",
-        title: "Interactive",
-        desc:"  Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        title: "Skill Enhancement",
+        desc:"As a member of ACM, you can choose from a variety of technical SIGs to enhance your technical skills in your area of interest, where you can engage in hands-on workshops, hackathons, coding challenges, etc."
     },
     {
         id:"2",
-        title: "dsfdsfctive",
-        desc:"  Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        title: "Networking Opportunities",
+        desc:" We provide opportunities to network and build relationships with like-minded individuals who share a passion for technology , which can help students connect with employers or mentors in their field."
     },
     {
         id:"3",
-        title: "Interactive",
-        desc:"  Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        title: "Leadership Experience",
+        desc:"As an ACM member, you'll develop valuable skills like team management, event organization, volunteerism, and budgeting."
     },
     {
         id:"4",
-        title: "Interactive",
-        desc:"  Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        title: "Hands-on learning",
+        desc:"At ACM, we offer various opportunities to develop your technical skills in a practical way through workshops, hackathons, coding competitions and more."
     },
     {
         id:"5",
-        title: "dsfdsfctive",
-        desc:"  Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        title: "Internship Opportunities",
+        desc:"Write your research paper under the guidance of a skilled mentor and boost your resume with excellent internship opportunities at ACM."
     },
     {
         id:"6",
-        title: "Interactive",
-        desc:"  Lorem ipsum dolor sit amet, consectetur adipisicing elit.Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil."
+        title: "Collaborative Environment",
+        desc:"ACM provides a collaborative environment where you can work with other like-minded individuals, share ideas, and learn from each other. This can be a great way to build your teamwork and leadership skills."
     }
 ]
 function JoinTeam() {
     
   return (
-    <div className="text-center sm:text-left">
+    <div className="sm:text-left">
       <div className=" joinuspage pb-0 pt-20 min-h-screen overflow-x-hidden"> 
         <Navbar />
         <div className="grid place-items-center  text-white">
