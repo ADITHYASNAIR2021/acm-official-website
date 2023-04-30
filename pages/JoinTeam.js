@@ -95,14 +95,14 @@ function JoinTeam() {
                               {returnSVG(pgdet.id)}
                             </div>
 
-                            <div className="flex items-center sm:justify-center">
+                            <div className="flex items-center justify-center ">
                               <ObjRec className="scale-75 mt-5" />
                               <div className="font-bold text-xl ml-4 text-center mt-5">
                                 {pgdet.title}
                               </div>
                             </div>
 
-                            <p className="text-white text-base text-center font-light my-5 lg:text-left ">
+                            <p className="text-white text-base text-justify font-light my-5 lg:text-justify ">
                               {pgdet.desc}
                             </p>
                           </div>
