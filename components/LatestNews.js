@@ -3,7 +3,9 @@ import Image from "next/image";
 import Heading from "./Heading";
 import Carousel, { CarouselItem } from "./Carousel";
 import Button from "./Button";
-import img from "../public/images/latestNews/1.jpeg"
+import coding from "../public/images/latestNews/coding.jpg";
+import unity from "../public/images/latestNews/unity.jpg";
+import fpv from "../public/images/latestNews/fpv.jpg"
 
 const LatestNews = () => {
   return (
@@ -14,36 +16,36 @@ const LatestNews = () => {
       <Carousel>
         <CarouselItem>
           <Image
-            src={img}
+            src={coding}
             alt="news 1"
             width="900"
             height="1200"
           />
-          <p>Dec 18 from 11.00AM to 12.00PM (IST)</p>
-          <span className="bookPrice">ICPC CODING</span>
-          <h2>ICPC CODING</h2>
+          <p>May 5 & 6 from 10.00 AM to 15.30 PM (IST)</p>
+          <span className="bookPrice">CODING</span>
+          <h2>CODING</h2>
         </CarouselItem>
         <CarouselItem>
           <Image
-            src={img}
+            src={fpv}
             alt="news 1"
             width="900"
             height="1200"
           />
-          <p>Dec 18 from 11.00AM to 12.00PM (IST)</p>
-          <span className="bookPrice">ICPC CODING</span>
-          <h2>ICPC CODING</h2>
+          <p>May 5 & 6 from 10.00 AM to 16.00 PM (IST)</p>
+          <span className="bookPrice">FPV</span>
+          <h2>FPV</h2>
         </CarouselItem>
         <CarouselItem>
           <Image
-            src={img}
+            src={unity}
             alt="news 1"
             width="900"
             height="1200"
           />
-          <p>Dec 18 from 11.00AM to 12.00PM (IST)</p>
-          <span className="bookPrice">ICPC CODING</span>
-          <h2>ICPC CODING</h2>
+          <p>May 5 from 10.00 AM to 16.00 PM (IST)</p>
+          <span className="bookPrice">UNITY</span>
+          <h2>UNITY</h2>
         </CarouselItem>
       </Carousel>
       <div className="flex items-center justify-center text-white pb-[50px]">
