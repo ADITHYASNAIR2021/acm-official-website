@@ -8,7 +8,7 @@ const projects = () => {
   return (
     <>
       <Head>
-        <title>Projects</title>
+        <title>Projects - ACM Amritapuri</title>
       </Head>
       <Navbar />
       <div className="first-div bg-[#010912] pt-5 pb-5">

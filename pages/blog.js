@@ -7,7 +7,7 @@ const blog = () => {
   return (
     <>
       <Head>
-        <title>Blog </title>
+        <title>Blog - ACM Amritapuri</title>
       </Head>
       <Navbar />
       <div className="h-screen bg-[#010912] first-div">

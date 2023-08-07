@@ -1,4 +1,5 @@
 import React from "react";
+import Head from "next/head";
 import Button2 from "../components/Button2";
 import ObjRec from "/public/objRec.svg";
 import Intrc from "/public/objinter.svg";
@@ -65,6 +66,9 @@ function JoinTeam() {
     
   return (
     <div className="sm:text-left">
+      <Head>
+        <title>Join Us - ACM Amritapuri</title>
+      </Head>
       <div className=" joinuspage pb-0 pt-20 min-h-screen overflow-x-hidden"> 
         <Navbar />
         <div className="grid place-items-center  text-white">
