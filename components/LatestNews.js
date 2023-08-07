@@ -8,6 +8,10 @@ import coding from "../public/images/latestNews/coding.jpg";
 import unity from "../public/images/latestNews/unity.jpg";
 import fpv from "../public/images/latestNews/fpv.jpg";
 
+const newsbuttnFunction = () =>{
+  window.location.href='/eventPage';
+}
+
 const LatestNews = () => {
   return (
     <>
@@ -41,7 +45,7 @@ const LatestNews = () => {
         </CarouselItem>
       </Carousel>
       <div className="flex items-center justify-center text-white pb-[50px]">
-        <Button message={"View more"} />
+        <Button message={"View more"} buttonFunction={newsbuttnFunction}/>
       </div>
     </>
   );

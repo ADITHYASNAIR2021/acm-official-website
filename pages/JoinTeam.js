@@ -8,6 +8,10 @@ import Creative from "/public/crtve.svg";
 import { Navbar } from "../components/Navbar";
 import Footer from "../components/Footer";
 
+const sendMail = () => {
+  window.location.href='mailto:contact@aseam.acm.org';
+}
+
 function returnSVG(id) {
     switch (id) {
       case "1":
@@ -80,7 +84,7 @@ function JoinTeam() {
                   <p className="ourteam flex items-center justify-center flex-wrap ">OUR TEAM</p>
                 </div>
                 <div className="flex items-center justify-center pb-10 pt-6">
-                    <Button2 message={"GET IN TOUCH"} />
+                    <Button2 message={"GET IN TOUCH"} buttonFunction={sendMail}/>
                 </div>
                 <p className="text-lg text-gray-300 flex-wrap px-12 text-center font-light lg:text-start">
                     The objective of the chapter to promote computer science as a

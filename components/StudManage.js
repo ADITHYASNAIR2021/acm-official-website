@@ -80,8 +80,8 @@ const StudManage = () => {
             name="SUDHIN S"
             position="CP Lead"
             instagram = "https://www.instagram.com/sudhin_dev/"
-            linkedin = "https://www.linkedin.com/in/sudi050/"
-            github = "https://github.com/sudhin_s"
+            linkedin = "https://www.linkedin.com/in/sudhin_s/"
+            github = "https://github.com/sudi050"
           />
         </div>
       </div>

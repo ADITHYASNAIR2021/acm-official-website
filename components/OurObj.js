@@ -4,6 +4,11 @@ import ObjRec from "/public/objRec.svg";
 import Intrc from "/public/objinter.svg";
 import BigIdea from "/public/bigId.svg";
 import Creative from "/public/crtve.svg";
+
+const learnmorebuttnFunction = () =>{
+  window.location.href='/JoinTeam';
+}
+
 function OurObj() {
   return (
     <div className=" ourobjbg pb-10">
@@ -76,7 +81,7 @@ function OurObj() {
             </div>
           </div>
           <div className="flex items-center justify-center">
-            <Button message={"Learn More"} />
+            <Button message={"Learn More"} buttonFunction={learnmorebuttnFunction}/>
           </div>
         </div>
 

@@ -1,5 +1,8 @@
 import style from '../styles/style1.module.css'
 
+const explore = () => {
+  window.location.href='/projects';
+}
 
 const Landing = () => {
   return (
@@ -24,7 +27,7 @@ const Landing = () => {
 
         </div>
         <div>
-          <button className={`${style.heading_button}`}> Explore </button>
+          <button className={`${style.heading_button}`} onClick={explore} > Explore </button>
         </div>
       </div>
     </div>

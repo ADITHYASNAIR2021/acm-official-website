@@ -10,6 +10,11 @@ export const Navbar = ({isTransparent}) => {
     const handleClick = () => {
         setActive(!active);
     };
+
+    const joinbuttnFunction = () =>{
+        window.location.href='https://aseam.acm.org/join/';
+    }
+
     var properties = (isTransparent ? "fixed w-[100%] top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3 bg-transparent": "fixed w-[100%] top-0 z-50 flex items-center flex-wrap bg-[#020B14] p-3")
     return (
         <div className="bg-[#020B14]">
@@ -61,25 +66,25 @@ export const Navbar = ({isTransparent}) => {
                         >
                             Why join us?
                         </Link>
-                        <Link
+                        {/* <Link
                             href="/"
                             className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
                         >
                             Clubs
-                        </Link>
+                        </Link> */}
                         <Link
                             href="/projects"
                             className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
                         >
                             Projects
                         </Link>
-                        <Link
+                        {/* <Link
                             href="/blog"
                             className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
                         >
                             Blogs
-                        </Link>
-                        <Button message={"JOIN US"} />
+                        </Link> */}
+                        <Button message={"JOIN US"} buttonFunction={joinbuttnFunction}/>
                     </div>
                 </div>
             </nav>

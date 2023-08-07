@@ -1,6 +1,11 @@
 import Button from "../Button";
 import AmritaUni from '/public/Amrita-Uni.svg'
 import Stats from '/public/Group 30.svg'
+
+const joinbuttnFunction = () =>{
+    window.location.href='https://aseam.acm.org/join/';
+}
+
 const AboutUs = () => {
 
     return (
@@ -32,7 +37,7 @@ const AboutUs = () => {
                     We are a group of computer science enthusiasts promoting self-education and group-based learning through Student Interest Groups (SIGs) focused on topics such as AI, Cybersecurity, Game Dev, Competitive Programming, Blockchain Dev and more. Join us based on your expertise in a certain field and contribute to an SIG by contacting us.
                 </p>
                 <br></br>
-                <Button message={"JOIN US"} />
+                <Button message={"JOIN US"} buttonFunction={joinbuttnFunction}/>
             </div>
             <div className="
                 Image 
