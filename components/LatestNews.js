@@ -21,7 +21,7 @@ const LatestNews = () => {
       </div>
       <Carousel>
       <CarouselItem>
-          <Image src={openHouse} alt="news 1" width="900" height="1200" />
+          <Image src={algoquest} alt="news 1" width="900" height="1200" />
           <p>Aug 10 from 14.00 PM to 16.30 PM (IST)</p>
           <span className="bookPrice">ALGOQUEST</span>
           <h2>ALGOQUEST</h2>
