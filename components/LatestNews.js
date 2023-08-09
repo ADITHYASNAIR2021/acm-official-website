@@ -7,6 +7,7 @@ import openHouse from "../public/images/latestNews/openHouse.jpg";
 import coding from "../public/images/latestNews/coding.jpg";
 import unity from "../public/images/latestNews/unity.jpg";
 import fpv from "../public/images/latestNews/fpv.jpg";
+import algoquest from "../public/images/latestNews/algoquest.jpg";
 
 const newsbuttnFunction = () =>{
   window.location.href='/eventPage';
@@ -19,6 +20,12 @@ const LatestNews = () => {
         <Heading heading="LATEST NEWS" />
       </div>
       <Carousel>
+      <CarouselItem>
+          <Image src={openHouse} alt="news 1" width="900" height="1200" />
+          <p>Aug 10 from 14.00 PM to 16.30 PM (IST)</p>
+          <span className="bookPrice">ALGOQUEST</span>
+          <h2>ALGOQUEST</h2>
+        </CarouselItem>
         <CarouselItem>
           <Image src={openHouse} alt="news 1" width="900" height="1200" />
           <p>May 23 from 16.30 PM to 18.00 PM (IST)</p>
