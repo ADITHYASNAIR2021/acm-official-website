@@ -40,17 +40,17 @@ function Footer() {
 
             <ul className="list-none mb-0">
               <li>
-                <a href="#!" className="opacity-[70%]">
+                <a href="/" className="opacity-[70%]">
                   About ACM
                 </a>
               </li>
               <li>
-                <a href="#!" className="opacity-[70%]">
+                <a href="/JoinTeam" className="opacity-[70%]">
                   Join ACM
                 </a>
               </li>
               <li>
-                <a href="#!" className="opacity-[70%]">
+                <a href="https://www.amrita.edu/campus/amritapuri/" className="opacity-[70%]">
                   Amrita Vishwa Vidyapeetham ASE,Amritapuri
                 </a>
               </li>
