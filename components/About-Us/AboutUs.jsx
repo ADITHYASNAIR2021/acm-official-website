@@ -39,15 +39,7 @@ const AboutUs = () => {
                 <br></br>
                 <Button message={"JOIN US"} buttonFunction={joinbuttnFunction}/>
             </div>
-            <div className="
-                Image 
-                relative 
-                self-center 
-                cs-708:flex 
-                cs-708:flex-col 
-                cs-708:justify-center 
-                hidden"
-            >
+            <div className=" Image relative self-center cs-708:flex cs-708:flex-col cs-708:justify-center hidden" >
                 <AmritaUni className="relative left-[10%]" />
                 <Stats className="absolute bottom-[-10%] left-[10%]" />
             </div>

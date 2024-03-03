@@ -28,7 +28,7 @@ function Events() {
         </div>
       </div>
       <div className="image flex justify-center rounded-md">
-        <img
+        <image
           src="/images/algoquest.jpeg"
           alt="Event Image"
           className="rounded-2xl max-h-[50%] max-w-[50%]"

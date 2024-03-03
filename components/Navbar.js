@@ -3,6 +3,7 @@ import { useState } from "react";
 import logo from "../public/images/website_logo.png"
 import Button from "./Button";
 import Image from "next/image";
+import ClubDropdown from "./ClubDropdown";
 
 export const Navbar = ({isTransparent}) => {
     const [active, setActive] = useState(false);
@@ -67,11 +68,13 @@ export const Navbar = ({isTransparent}) => {
                             Why join us?
                         </Link>
                         {/* <Link
-                            href="/"
+                            href="/clubs"
                             className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"
                         >
                             Clubs
                         </Link> */}
+                        {/* <ClubDropdown/> */}
+                        
                         <Link
                             href="/projects"
                             className="lg:inline-flex lg:w-auto w-full px-3 py-2 font-Poppins rounded text-white items-center justify-center hover:text-[#217EE3]"

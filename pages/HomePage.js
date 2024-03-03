@@ -14,8 +14,8 @@ function HomePage() {
             <Landing />
             <AboutUs />
             <OurObj />
+            <StudManage />
             <div className="Faculty-section min-w-screen min-h-screen font-RedRose font-bold leading-8">
-                <StudManage />
                 <FacultyManagement />
                 <LatestNews/>
             </div>
