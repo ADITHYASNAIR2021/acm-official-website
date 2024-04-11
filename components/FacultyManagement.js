@@ -10,36 +10,42 @@ export default function FacultyManagement() {
             <div className="faculty-body mt-12 w-[100%]">
                 <div className="faculty-row-1 flex justify-center items-center flex-wrap">
                     <FacultyCards
-                        image={require("./../public/images/faculty-1.png")}
+                        image={require("./../public/images/Binupk.jpg")}
                         name="Mr.P.K Binu"
                         position="Faculty Sponsor"
                         mg="sm:mr-10 md:mr-28 lg:mr-24 xl:mr-32"
                     />
                     <FacultyCards
-                        image={require("./../public/images/faculty-2.png")}
-                        name="Dr. Jyothisha J Nair"
+                        image={require("./../public/images/Swaminathanj.jpg")}
+                        name="Dr. Swaminathan J"
                         position="Executive Committee Member"
                         mg="sm:mr-0 md:mr-0 lg:mr-24 xl:mr-32"
                     />
                     <FacultyCards
-                        image={require("./../public/images/faculty-3.png")}
-                        name="Ms. Greeshma Sarath"
+                        image={require("./../public/images/Jyothishanair.jpg")}
+                        name="Dr. Jyothisha Nair"
                         position="Chairperson"
                         mg="mr-0 sm:mt-9 md:mt-10 lg:mt-0"
                     />
                 </div>
-                <div className="faculty-row-2 flex sm:mt-8 md:mt-8 lg:mt-16 justify-center items-center flex-wrap">
+                <div className="faculty-row-1 flex justify-center items-center flex-wrap">
                     <FacultyCards
-                        image={require("./../public/images/faculty-4.png")}
-                        name="Mr. Sarath S"
+                        image={require("./../public/images/Geethamam.jpg")}
+                        name="Dr. Geetha M"
                         position="Executive Committee Member"
                         mg="sm:mr-10 md:mr-28 lg:mr-24 xl:mr-32"
                     />
                     <FacultyCards
-                        image={require("./../public/images/faculty-5.png")}
-                        name="Mr. Krishna S"
+                        image={require("./../public/images/Gopakumarg.jpg")}
+                        name="Dr. Gopakumar G"
                         position="Executive Committee Member"
-                        mg="mr-0"
+                        mg="sm:mr-0 md:mr-0 lg:mr-24 xl:mr-32"
+                    />
+                    <FacultyCards
+                        image={require("./../public/images/Priyamam.PNG")}
+                        name="Priya M"
+                        position="Executive Committee Member"
+                        mg="mr-0 sm:mt-9 md:mt-10 lg:mt-0"
                     />
                 </div>
             </div>

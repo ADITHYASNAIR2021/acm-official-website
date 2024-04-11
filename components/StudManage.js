@@ -32,7 +32,17 @@ const StudManage = () => {
           />
 
           <StudentCard 
-            image={require("./../public/Students/dhruv.jpeg")}
+            image={require("./../public/Students/Aadithyanraju.jpeg")}
+            name="Aadithyan Raju"
+            position="Secretory"
+            instagram = "https://www.instagram.com/aadithyan.raju/"
+            linkedin = "https://www.linkedin.com/in/aadithyan-raju/"
+            github = "https://github.com/AadithyanRaju"
+            imageStyle={{ width: '205px', height: '219px'}}
+          />
+
+          <StudentCard 
+            image={require("./../public/Students/dhruvrk.jpg")}
             name="Dhruv R Krishnan"
             position="SIG AI Lead"
             instagram = "https://www.instagram.com/drk_kai20"
